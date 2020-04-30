@@ -182,6 +182,8 @@ Netzwerk
 
 Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
 
+**NTNX-STZ-A**
+
 .. list-table::
    :widths: 33 33 33
    :header-rows: 1
@@ -207,6 +209,40 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
    * - **DHCP Pool**
      - 10.42.174.50  - 125
      - 10.42.174.132 - 253
+   * - **Domain**
+     - NTNXLAB.local
+     - NTNXLAB.local
+   * - **DNS**
+     - 10.42.174.41 (DC VM)
+     - 10.42.174.41 (DC VM)
+
+**NTNX-STZ-B**
+
+.. list-table::
+   :widths: 33 33 33
+   :header-rows: 1
+
+   * -
+     - **Primäres** Netzwerk
+     - **Sekundäres** Netzwerk
+   * - **VLAN**
+     - 0
+     - 1983
+   * - **Netzwerk IP Adresse**
+     - 10.42.198.0
+     - 10.42.198.128
+   * - **Netzmaske**
+     - 255.255.255.128 (/25)
+     - 255.255.255.128 (/25)
+   * - **Default Gateway**
+     - 10.42.198.1
+     - 10.42.198.129
+   * - **IP Address Management (IPAM)**
+     - Aktiviert
+     - Aktiviert
+   * - **DHCP Pool**
+     - 10.42.198.50  - 125
+     - 10.42.198.132 - 253
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
