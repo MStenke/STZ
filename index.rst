@@ -12,7 +12,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Labs
+   :caption: Basis Labs
    :hidden:
 
    Lab1/lab1
@@ -25,7 +25,7 @@
    
 .. toctree::
    :maxdepth: 2
-   :caption: Optional
+   :caption: Erweiterte Labs
    :hidden:
 
    files/files

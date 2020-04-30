@@ -86,32 +86,6 @@ Infrastruktur IPs
      - 10.42.174.38
 	 - 10.42.198.38
 
-Virtuelle Maschinen
-++++++++++++++++++++
-
-Die folgenden VMs wurden u.a. bereits auf dem Cluster ausgerollt:
-
-.. list-table::
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - VM-Name
-     - IP-Adresse
-     - Beschreibung
-   * - **Prism Central**
-     - 10.42.174.39
-     - Nutanix Prism Central
-   * - **AutoAD**
-     - 10.42.174.41
-     - ntnxlab.local Domain Controller
-   * - **NTNX-BootcampFS-1**
-     - 10.42.174.53 / 10.42.92.174
-     - Nutanix File Server
-   * - **NTNX-FA-BootcampFileAnalytics**
-     - 10.42.174.132
-     - Nutanix File Analytics
-
-
 
 Zugangsdaten
 ++++++++++++
@@ -145,6 +119,9 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - nutanix/4u
   * - **CentOS VM Image**
     - root
+    - nutanix/4u
+  * - **Veeam VBR**
+    - Veeam
     - nutanix/4u
 
 
