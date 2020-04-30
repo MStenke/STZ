@@ -19,7 +19,7 @@ import sphinx_copybutton
 
 # -- Project information -----------------------------------------------------
 
-project = 'Bechtle Technology Bootcamp'
+project = 'STZ Hosted PoC'
 copyright = '2020, Nutanix Germany GmbH | '
 author = 'Martin Stenke'
 

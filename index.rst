@@ -1,11 +1,11 @@
-.. title:: Bechtle Technology Bootcamp
+.. title:: STZ Hosted PoC
 
 .. toctree::
    :maxdepth: 2
-   :caption: BootCamp Infos
+   :caption: Hosted PoC Infos
    :hidden:
 
-   Trainer/trainer
+   Trainer/ansprechpartner
    clusteraccess/clusteraccess
    clusterdetails/clusterdetails
 
@@ -41,17 +41,14 @@ Herzlich willkommen auf dem Nutanix
 
 .. figure:: images/Intro.png
 
-Dieses Nutanix Technology BootCamp Workbook führt Sie Schritt für Schritt durch die verschiedenen Labs, sodass Sie eine umfassende praktische Einführung in die Nutanix Technologie erhalten. Als Erstes lernen Sie Prism Element kennen und werden mit dessen Funktionen und der Benutzerführung vertraut. Sie werden in diesem Lab Prism Element nutzen um Basis Cluster Administrations-Aufgaben (inkl. Storage und Netzwerk Verwaltung) sowie Basis VM-Deployments und Management-Aufgaben mit Prism und AHV durchzuführen. Weiter werden Sie VM Data Protection Optionen wie Snapshots und Replikationen sowie erweiterte Cluster Funktionalitäten mit Prism Central kennenlernen.
+Diese Nutanix Hosted PoC Webseite führt Sie Schritt für Schritt durch die verschiedenen Labs, sodass Sie eine umfassende praktische Einführung in die Nutanix Technologie erhalten. Als Erstes lernen Sie Prism Element kennen und werden mit dessen Funktionen und der Benutzerführung vertraut. Sie werden in diesem Lab Prism Element nutzen um Basis Cluster Administrations-Aufgaben (inkl. Storage und Netzwerk Verwaltung) sowie Basis VM-Deployments und Management-Aufgaben mit Prism und AHV durchzuführen. Weiter werden Sie VM Data Protection Optionen wie Snapshots und Replikationen sowie erweiterte Cluster Funktionalitäten mit Prism Central kennenlernen.
 
-Der Bootcamp Workshop besteht primär aus zwei Hauptbestandteilen:
+Der Hosted PoC  besteht primär aus zwei Hauptbestandteilen:
 
-Teil 1: Theorie
-  Genereller Überblick über das Nutanix Portfolio sowie einen theoretischen Einblick in die Nutanix Architektur.
+Teil 1: Basis Labs
+  Geben Ihnen ein ersten Überblick über die Basis Routine Aufgaben / Möglichkeiten in einem Nutanix Cluster, etwa Storage, Netzwerk und Data Protection Konfiguration.
 
-Teil 2: Praxis
-  Hier lernen Sie anhand einzelner Labs Schritt für Schritt die zuvor theoretisch vorgestellte Nutanix Architektur kennen. Zusätzlich stehen Ihnen weiterführende optionale Labs zur Verfügung.
+Teil 2: Erweiterte Labs
+  Hier lernen Sie anhand einzelner Labs Schritt für Schritt erweiterte Nutanix Funktionalitäten kennen.
 
 **Haben wir Ihr Interesse geweckt? Dann lassen Sie uns beginnen!**
-
-.. note::
-   Für den praktischen Teil wird empfohlen entweder individuell auf die Umgebung zuzugreifen oder sich in Teams zusammenzufinden und die Labs gemeinsam durchzuführen.
