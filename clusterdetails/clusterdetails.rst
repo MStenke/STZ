@@ -7,16 +7,18 @@ Bootcamp Cluster Details
 Cluster Hardware Details
 ++++++++++++++++++++++++
 
-**Typisches Modell für PoC's mit 4 Nodes in 2 Höheneinheiten:**
+
+**Für den Hosted PoC wurden 2 Systeme jeweils mit 4 Nodes in 2 Höheneinheiten reserviert:**
 
 .. figure:: images/cluster3060g5a.png
 
 .. note::
-  Bedenken Sie bitte, dass diese Testumgebung zum einen nicht auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience testen.
+  Bedenken Sie bitte, dass diese Testumgebung zum nicht zwangsläufig  auf der neuesten Hardware basiert und das zum anderen auf Grund der Entfernung zum Lab-Datacenter entsprechende Latenzen auftreten können. Nichtsdestotrotz lassen sich mit dieser Umgebung die typischen Routineaufgaben bzgl. einer Nutanix-Cluster-Plattform mit einer ausgezeichneten User-Experience testen.
 
 Infrastruktur IPs
 +++++++++++++++++
 
+**Cluster: NTNX-STZ-A**
 .. list-table::
    :widths: 10 10 10 10
    :header-rows: 1
@@ -26,33 +28,61 @@ Infrastruktur IPs
      - Hypervisors
      - IPMI
    * - **Position A**
-     - 10.42.92.29
-     - 10.42.92.25
-     - 10.42.92.33
+     - 10.42.174.29
+     - 10.42.174.25
+     - 10.42.174.33
    * - **Position B**
-     - 10.42.92.30
-     - 10.42.92.26
-     - 10.42.92.34
+     - 10.42.174.30
+     - 10.42.174.26
+     - 10.42.174.34
    * - **Position C**
-     - 10.42.92.31
-     - 10.42.92.27
-     - 10.42.92.35
+     - 10.42.174.31
+     - 10.42.174.27
+     - 10.42.174.35
    * - **Position D**
-     - 10.42.92.32
-     - 10.42.92.28
-     - 10.42.92.36
+     - 10.42.174.32
+     - 10.42.174.28
+     - 10.42.174.36
 
+**Cluster: NTNX-STZ-B**
 .. list-table::
-   :widths: 20 10
+   :widths: 10 10 10 10
+   :header-rows: 1
+
+   * - Nodes
+     - CVMs
+     - Hypervisors
+     - IPMI
+   * - **Position A**
+     - 10.42.198.29
+     - 10.42.198.25
+     - 10.42.198.33
+   * - **Position B**
+     - 10.42.198.30
+     - 10.42.198.26
+     - 10.42.198.34
+   * - **Position C**
+     - 10.42.198.31
+     - 10.42.198.27
+     - 10.42.198.35
+   * - **Position D**
+     - 10.42.198.32
+     - 10.42.198.28
+     - 10.42.198.36
+	 
+.. list-table::
+   :widths: 20 10 10
    :header-rows: 1
 
    * - Services
-     - IP-Adressen
+     - IP-Adressen STZ-A
+	 - IP-Adressen STZ-B
    * - **Virtuelle IP Adresse Cluster**
-     - 10.42.92.37
+     - 10.42.174.37
+	 - 10.42.198.37
    * - **iSCSI Data Services IP**
-     - 10.42.92.38
-
+     - 10.42.174.38
+	 - 10.42.198.38
 
 Virtuelle Maschinen
 ++++++++++++++++++++
@@ -67,52 +97,18 @@ Die folgenden VMs wurden u.a. bereits auf dem Cluster ausgerollt:
      - IP-Adresse
      - Beschreibung
    * - **Prism Central**
-     - 10.42.92.39
+     - 10.42.174.39
      - Nutanix Prism Central
    * - **AutoAD**
-     - 10.42.92.41
+     - 10.42.174.41
      - ntnxlab.local Domain Controller
    * - **NTNX-BootcampFS-1**
-     - 10.42.92.53 / 10.42.92.174
+     - 10.42.174.53 / 10.42.92.174
      - Nutanix File Server
    * - **NTNX-FA-BootcampFileAnalytics**
-     - 10.42.92.132
+     - 10.42.174.132
      - Nutanix File Analytics
 
-
-Images / VM Vorlagen & ISOs
-++++++++++++++++++++++++++++
-
-Die folgenden Disk-Images & ISOs wurden bereits im Vorfeld auf den Cluster hochgeladen, sodass sie via Image-Service verwendet werden können:
-
-.. list-table::
-   :widths: 20 7 50
-   :header-rows: 1
-
-   * - Image-Name
-     - Typ
-     - Beschreibung
-   * - **CentOS7.qcow2**
-     - DISK
-     - Ein bereits vorgefertigtes CentOS 7 Disk Image.
-   * - **ERA-Server-build-1.2.1.qcow2**
-     - DISK
-     - Ein Nutanix ERA Disk Image.
-   * - **Linux_ToolsVM.qcow2**
-     - DISK
-     - Ein vorkonfiguriertes Linux Image  + Tools Disk Image.
-   * - **MSSQL-2016-VM.qcow2**
-     - DISK
-     - Ein Windows Server 2016 Standard Image mit MS SQL 2016 vorinstalliert.
-   * - **Nutanix-VirtIO-1.1.5.iso**
-     - ISO
-     - Ein ISO mit den Nutanix VM Treibern.
-   * - **Windows2016.qcow2**
-     - DISK
-     - Ein Windows2016 Disk Image.
-   * - **WinToolsVM.qcow2**
-     - DISK
-     - Ein vorkonfiguriertes Windows Server 2012 R2 + Tools (pgAdmin, CyberDuck, Text Editoren, etc.) Disk Image.
 
 
 Zugangsdaten
@@ -132,13 +128,13 @@ Die folgende Tabelle führt die standardmäßig hinterlegten Zugangsdaten für d
     - ADMIN
   * - **Prism Element**
     - admin
-    - ntnx4Bechtle!
+    - ntnx4STZ!
   * - **Prism Element VM's**
     - nutanix
-    - ntnx4Bechtle!
+    - ntnx4STZ!
   * - **Prism Central**
     - admin
-    - ntnx4Bechtle!
+    - ntnx4STZ!
   * - **Prism Central VM**
     - nutanix
     - nutanix/4u
@@ -195,25 +191,25 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - **Sekundäres** Netzwerk
    * - **VLAN**
      - 0
-     - 921
+     - 1743
    * - **Netzwerk IP Adresse**
-     - 10.42.92.0
-     - 10.42.92.128
+     - 10.42.174.0
+     - 10.42.174.128
    * - **Netzmaske**
      - 255.255.255.128 (/25)
      - 255.255.255.128 (/25)
    * - **Default Gateway**
-     - 10.42.92.1
-     - 10.42.92.129
+     - 10.42.174.1
+     - 10.42.174.129
    * - **IP Address Management (IPAM)**
      - Aktiviert
      - Aktiviert
    * - **DHCP Pool**
-     - 10.42.92.50  - 125
-     - 10.42.92.132 - 253
+     - 10.42.174.50  - 125
+     - 10.42.174.132 - 253
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
    * - **DNS**
-     - 10.42.92.41 (DC VM)
-     - 10.42.92.41 (DC VM)
+     - 10.42.174.41 (DC VM)
+     - 10.42.174.41 (DC VM)

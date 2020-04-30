@@ -5,7 +5,7 @@
    :caption: Hosted PoC Infos
    :hidden:
 
-   Trainer/ansprechpartner
+   ansprechpartner/ansprechpartner
    clusteraccess/clusteraccess
    clusterdetails/clusterdetails
 

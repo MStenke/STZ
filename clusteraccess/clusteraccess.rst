@@ -7,13 +7,13 @@ Zugang zur Lab Umgebung
 Zugangs Übersicht
 +++++++++++++++++
 
-Die Lab Umgebung stehen physisch in der USA im Bundesstaat Arizona (Phoenix). Um auf diese zugreifen zu können wird ein Remote Zugriff benötigt.
+Die Lab Umgebung stehen physisch in der USA. Um auf diese zugreifen zu können wird ein Remote Zugriff benötigt.
 Hierfür stehen 3 Optionen zur Auswahl: **Nutanix Frame VDI**, **Pulse VPN** *oder* **Parallel VDI Zugang.**
 
 Die Lab-Zugangsdaten sind folgende:
 
-- **Benutzername**: PHX-POC092-User01, PHX-POC092-User02 … PHX-POC092-User20 etc.
-- **Password**: ntnx4Bechtle!
+- **Benutzername**: PHX-POC174-User01, PHX-POC174-User02 … PHX-POC174-User20 etc.
+- **Password**: ntnx4STZ!
 
 Frame VDI Client
 ++++++++++++++++
