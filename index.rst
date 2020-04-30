@@ -8,42 +8,18 @@
    ansprechpartner/ansprechpartner
    clusteraccess/clusteraccess
    clusterdetails/clusterdetails
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Basis Labs
-   :hidden:
-
-   Lab1/lab1
-   Lab2/lab2
-   Lab3/lab3
-   Lab4/lab4   
-   Lab5/lab5   
-   Lab6/lab6   
-   Lab7/lab7
    
-.. toctree::
-   :maxdepth: 2
-   :caption: Erweiterte Labs
-   :hidden:
-
-   files/files
-   tools_vms/windows_tools_vm
-   tools_vms/linux_tools_vm
-   veeam/veeam
-
 .. toctree::
    :maxdepth: 2
    :caption: AOS und AHV Labs
    :hidden:
 
-  aosandahv/lab_nutanix_tech_overview/lab_nutanix_tech_overview
-  aosandahv/lab_storage_configuration/lab_storage_configuration
-  aosandahv/lab_network_configuration/lab_network_configuration
-  aosandahv/lab_deploy_workloads/lab_deploy_workloads
-  aosandahv/lab_manage_workloads/lab_manage_workloads
-  aosandahv/lab_data_protection/lab_data_protection
+   aosandahv/lab_nutanix_tech_overview/lab_nutanix_tech_overview
+   aosandahv/lab_storage_configuration/lab_storage_configuration
+   aosandahv/lab_network_configuration/lab_network_configuration
+   aosandahv/lab_deploy_workloads/lab_deploy_workloads
+   aosandahv/lab_manage_workloads/lab_manage_workloads
+   aosandahv/lab_data_protection/lab_data_protection
 
 .. toctree::
    :maxdepth: 2
@@ -55,7 +31,16 @@
    privatecloud/prismops/prismops_rightsize_lab/prismops_rightsize_lab
    privatecloud/files/files
    privatecloud/flow_secure_fiesta/flow_secure_fiesta
-   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Erweiterte Labs
+   :hidden:
+
+   files/files
+   tools_vms/windows_tools_vm
+   tools_vms/linux_tools_vm
+
 .. _getting_started:
 
 -----------------------------------
