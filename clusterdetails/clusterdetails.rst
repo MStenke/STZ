@@ -8,7 +8,7 @@ Cluster Hardware Details
 ++++++++++++++++++++++++
 
 
-**Für den Hosted PoC wurden 2 Systeme jeweils mit 4 Nodes in 2 Höheneinheiten reserviert:**
+**Für den Hosted PoC wurden 2 Systeme mit jeweils 4 Nodes in 2 Höheneinheiten reserviert:**
 
 .. figure:: images/cluster3060g5a.png
 
@@ -19,6 +19,7 @@ Infrastruktur IPs
 +++++++++++++++++
 
 **Cluster: NTNX-STZ-A**
+
 .. list-table::
    :widths: 10 10 10 10
    :header-rows: 1
@@ -45,6 +46,7 @@ Infrastruktur IPs
      - 10.42.174.36
 
 **Cluster: NTNX-STZ-B**
+
 .. list-table::
    :widths: 10 10 10 10
    :header-rows: 1
