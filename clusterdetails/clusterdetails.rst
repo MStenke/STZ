@@ -71,7 +71,8 @@ Infrastruktur IPs
      - 10.42.198.32
      - 10.42.198.28
      - 10.42.198.36
-	 
+
+
 .. list-table::
    :widths: 20 10 10
    :header-rows: 1
