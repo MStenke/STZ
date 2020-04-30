@@ -32,6 +32,18 @@
    tools_vms/windows_tools_vm
    tools_vms/linux_tools_vm
    veeam/veeam
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Private Cloud Labs
+   :hidden:
+
+   privatecloud/dayinlife/dayinlife
+   privatecloud/prismops/prismops_capacity_lab/prismops_capacity_lab
+   privatecloud/prismops/prismops_rightsize_lab/prismops_rightsize_lab
+   privatecloud/security/security
+   privatecloud/files/files
+   privatecloud/flow_secure_fiesta/flow_secure_fiesta
    
 .. _getting_started:
 
