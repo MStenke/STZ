@@ -15,7 +15,7 @@ Lab Setup
 
    .. figure:: images/init1.png
 
-#. Open a new tab in the browser, and navigate to http://`<GTSPrismOpsLabUtilityServer_IP_ADDRESS>`/alerts [example http://10.42.113.52/alerts]. It is possible you may need to log into the VM if you are the first one to use it. In that case, fill out the **Prism Central IP** (from the assignment spreadsheet, not the IP we just documented), **Username** and **Password** and click **Login**.
+#. Open a new tab in the browser, and navigate to http://`<GTSPrismOpsLabUtilityServer_IP_ADDRESS>`/alerts [example http://10.42.113.52/alerts]. It is possible you may need to log into the VM if you are the first one to use it. In that case, fill out the **Prism Central IP**, **Username** and **Password** and click **Login**.
 
    .. figure:: images/init2.png
 

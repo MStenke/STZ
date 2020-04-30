@@ -6,18 +6,13 @@ A Day in the Life
 
 In this lab you will follow a day in the life of Carol O'Kay, a 10 year veteran of administrating virtual environments on 3-tier architecture, who has recently deployed her first Nutanix cluster. The Nutanix cluster is being used for a mix of production IT workloads, and supporting the engineering efforts for her company's primary application, an inventory management solution called Fiesta, used to support the company's retail storefronts.
 
-.. note::
-
-   If there are multiple people utilizing the same Nutanix cluster to complete this lab, certain steps may have already been completed. If this occurs, just skip that particular step, and continue on with the lab after you've verified the step(s) was completed correctly.
 
 Configuring Storage
 +++++++++++++++++++
 
 In this brief exercise, you will experience how IT generalists can provision and monitor primary storage for their virtualized environment through Prism with just a few clicks - a stark contrast to planning and managing traditional SAN storage.
 
-#. Using your **Cluster Assignment Spreadsheet**, identify your **Prism Element** cluster IP.
-
-#. In a browser, open **Prism Element** and log in using the following local user credentials:
+#. Open **Prism Element** and log in using the following local user credentials:
 
    - **Username** - admin
    - **Password** - *HPOC Password*
@@ -101,7 +96,7 @@ AHV leverages Open vSwitch (OVS) for all VM networking. OVS is an open source so
 
    .. figure:: images/9.png
 
-#. Click **+ Create Network** and fill out the following fields, using the **User** specific network details in :ref:`clusterassignments`:
+#. Click **+ Create Network** and fill out the following fields, using the **User** specific network details:
 
    - **Name** - *Initials*-Network_IPAM
    - **VLAN ID** - A value (< 4096) other than your **Primary** or **Secondary** network VLANs
@@ -227,10 +222,6 @@ In this exercise you'll create a custom category for Carol to help align access 
 #. Using the checkboxes, select the **AutoAD**, and **NTNX-BootcampFS-1** VMs and click **Actions > Manage Categories**.
 
    .. figure:: images/17.png
-
-   .. note::
-
-      Depending on the number of participants, some of the VMs you need to select could be on another page. You may either search for the VM in question, click to view additional pages and select the VM, or choose to show additional rows. Any of these techniques can be accomplished at the upper right hand portion of the interface.
 
 #. In the search bar, begin typing **Environment** and select the **Production** value, then click on the plus sign.
 
@@ -364,7 +355,9 @@ In order for non-infrastructure administrators to access Calm, allowing them to 
 
 #. Click **Save & Configure Environment**.
 
-``This will redirect you to the Envrionments page, but there is nothing needed to configure here. Move onto the next step.``
+   .. note::
+
+      This will redirect you to the Envrionments page, but there is nothing needed to configure here. Move onto the next step.
 
 Note that only **Operator02** was given access to the **Calm** project, rather than all Operator accounts.
 
@@ -619,8 +612,6 @@ Improved Life Cycle Management
 ++++++++++++++++++++++++++++++
 
 While not a daily activity, Carol previously dedicated as much as 40% of her time planning and executing software and firmware updates to legacy infrastructure, leaving little time for innovation. In her Nutanix environments, Carol is leveraging the rules engine and rich automation in Lifecycle Manager (LCM) to take the hassle out of planning and applying her infrastructure software updates.
-
-Unfortunately in a shared cluster environment, you're not able to test LCM directly. To become more familiar with LCM's capabilities and ease of use, click through each of the interactive demos available below.
 
 5.11 Prism Element LCM Interactive Demo
 =======================================

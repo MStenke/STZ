@@ -157,7 +157,7 @@ Now let's look at how we can take automated action to generate this report when 
 
    .. figure:: images/cap14.png
 
-#. **Delete** or **Disable** your Playbook from the **Prism Central** before moving on to another lab. Since there are multiple users sharing the lab environment, the alerts they generate could cause you to continue to recieve emails as long as this Playbook is enabled.
+#. **Delete** or **Disable** your Playbook from the **Prism Central** before moving on to another lab in order not to recieve any further emails as long as this Playbook is enabled.
 
    .. figure:: images/cap15.png
 
