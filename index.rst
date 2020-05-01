@@ -5,32 +5,32 @@
    :caption: Hosted PoC Infos
    :hidden:
 
-   hpoc-infos/ansprechpartner/ansprechpartner
-   hpoc-infos/clusteraccess/clusteraccess
-   hpoc-infos/clusterdetails/clusterdetails
+   1-hpoc-infos/ansprechpartner/ansprechpartner
+   1-hpoc-infos/clusteraccess/clusteraccess
+   1-hpoc-infos/clusterdetails/clusterdetails
    
 .. toctree::
    :maxdepth: 2
    :caption: AOS und AHV Labs
    :hidden:
 
-   aosandahv/lab_nutanix_tech_overview/lab_nutanix_tech_overview
-   aosandahv/lab_storage_configuration/lab_storage_configuration
-   aosandahv/lab_network_configuration/lab_network_configuration
-   aosandahv/lab_deploy_workloads/lab_deploy_workloads
-   aosandahv/lab_manage_workloads/lab_manage_workloads
-   aosandahv/lab_data_protection/lab_data_protection
+   2-aosandahv/lab_nutanix_tech_overview/lab_nutanix_tech_overview
+   2-aosandahv/lab_storage_configuration/lab_storage_configuration
+   2-aosandahv/lab_network_configuration/lab_network_configuration
+   2-aosandahv/lab_deploy_workloads/lab_deploy_workloads
+   2-aosandahv/lab_manage_workloads/lab_manage_workloads
+   2-aosandahv/lab_data_protection/lab_data_protection
 
 .. toctree::
    :maxdepth: 2
    :caption: Private Cloud Labs
    :hidden:
 
-   privatecloud/dayinlife/dayinlife
-   privatecloud/prismops/prismops_capacity_lab/prismops_capacity_lab
-   privatecloud/prismops/prismops_rightsize_lab/prismops_rightsize_lab
-   privatecloud/files/files
-   privatecloud/flow_secure_fiesta/flow_secure_fiesta
+   3-privatecloud/dayinlife/dayinlife
+   3-privatecloud/prismops/prismops_capacity_lab/prismops_capacity_lab
+   3-privatecloud/prismops/prismops_rightsize_lab/prismops_rightsize_lab
+   3-privatecloud/files/files
+   3-privatecloud/flow_secure_fiesta/flow_secure_fiesta
 
 .. toctree::
    :maxdepth: 2
@@ -43,9 +43,9 @@
 
 .. _getting_started:
 
------------------------------------
-Herzlich willkommen auf dem Nutanix
------------------------------------
+----------------------------------------------
+Herzlich willkommen auf dem Nutanix Hosted PoC
+----------------------------------------------
 
 .. figure:: images/Intro.png
 
