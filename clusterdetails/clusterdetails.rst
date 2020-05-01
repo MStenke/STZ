@@ -56,21 +56,21 @@ Infrastruktur IPs
      - Hypervisors
      - IPMI
    * - **Position A**
-     - 10.42.198.29
-     - 10.42.198.25
-     - 10.42.198.33
+     - 10.38.198.29
+     - 10.38.198.25
+     - 10.38.198.33
    * - **Position B**
-     - 10.42.198.30
-     - 10.42.198.26
-     - 10.42.198.34
+     - 10.38.198.30
+     - 10.38.198.26
+     - 10.38.198.34
    * - **Position C**
-     - 10.42.198.31
-     - 10.42.198.27
-     - 10.42.198.35
+     - 10.38.198.31
+     - 10.38.198.27
+     - 10.38.198.35
    * - **Position D**
-     - 10.42.198.32
-     - 10.42.198.28
-     - 10.42.198.36
+     - 10.38.198.32
+     - 10.38.198.28
+     - 10.38.198.36
 
 
 .. list-table::
@@ -82,10 +82,10 @@ Infrastruktur IPs
 	 - IP-Adressen STZ-B
    * - **Virtuelle IP Adresse Cluster**
      - 10.42.174.37
-	 - 10.42.198.37
+	 - 10.38.198.37
    * - **iSCSI Data Services IP**
      - 10.42.174.38
-	 - 10.42.198.38
+	 - 10.38.198.38
 
 
 Zugangsdaten
@@ -209,20 +209,20 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - 0
      - 1983
    * - **Netzwerk IP Adresse**
-     - 10.42.198.0
-     - 10.42.198.128
+     - 10.38.198.0
+     - 10.38.198.128
    * - **Netzmaske**
      - 255.255.255.128 (/25)
      - 255.255.255.128 (/25)
    * - **Default Gateway**
-     - 10.42.198.1
-     - 10.42.198.129
+     - 10.38.198.1
+     - 10.38.198.129
    * - **IP Address Management (IPAM)**
      - Aktiviert
      - Aktiviert
    * - **DHCP Pool**
-     - 10.42.198.50  - 125
-     - 10.42.198.132 - 253
+     - 10.38.198.50  - 125
+     - 10.38.198.132 - 253
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
