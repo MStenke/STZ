@@ -72,9 +72,8 @@ Infrastruktur IPs
      - 10.38.198.28
      - 10.38.198.36
 
-
 .. list-table::
-   :widths: 20 10 10
+   :widths: 20 20 20
    :header-rows: 1
 
    * - Services
@@ -86,7 +85,6 @@ Infrastruktur IPs
    * - **iSCSI Data Services IP**
      - 10.42.174.38
 	 - 10.38.198.38
-
 
 Zugangsdaten
 ++++++++++++

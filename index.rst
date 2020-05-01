@@ -5,9 +5,9 @@
    :caption: Hosted PoC Infos
    :hidden:
 
-   ansprechpartner/ansprechpartner
-   clusteraccess/clusteraccess
-   clusterdetails/clusterdetails
+   hpoc-infos/ansprechpartner/ansprechpartner
+   hpoc-infos/clusteraccess/clusteraccess
+   hpoc-infos/clusterdetails/clusterdetails
    
 .. toctree::
    :maxdepth: 2
@@ -34,7 +34,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Erweiterte Labs
+   :caption: Anhang Labs
    :hidden:
 
    files/files
