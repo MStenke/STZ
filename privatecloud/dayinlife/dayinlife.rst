@@ -616,15 +616,15 @@ While not a daily activity, Carol previously dedicated as much as 40% of her tim
 5.11 Prism Element LCM Interactive Demo
 =======================================
 
-.. figure:: https://demo-captures.s3-us-west-1.amazonaws.com/pe-5.11-lcm/story_content/thumbnail.jpg
-   :target: https://demo-captures.s3-us-west-1.amazonaws.com/pe-5.11-lcm/story.html
+.. figure:: https://demo-captures.s3-us-west-1.amazonaws.com/LCM_PE/story/thumbnail.jpg
+   :target: https://demo-captures.s3-us-west-1.amazonaws.com/LCM_PE/story.html
    :alt: Prism Element 5.11 LCM Interactive Demo
 
 5.11 Prism Central LCM Interactive Demo
 =======================================
 
-.. figure:: https://demo-captures.s3-us-west-1.amazonaws.com/pc-5.11-lcm/story_content/thumbnail.jpg
-   :target: https://demo-captures.s3-us-west-1.amazonaws.com/pc-5.11-lcm/story.html
+.. figure:: https://demo-captures.s3-us-west-1.amazonaws.com/LCM_PC/story/thumbnail.jpg
+   :target: https://demo-captures.s3-us-west-1.amazonaws.com/LCM_PC/story.html
    :alt: Prism Central 5.11 LCM Interactive Demo
 
 Next Steps
