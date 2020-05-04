@@ -12,8 +12,8 @@ Hierfür stehen 3 Optionen zur Auswahl: **Nutanix Frame VDI**, **Pulse VPN** *od
 
 Die Lab-Zugangsdaten sind folgende:
 
-- **Benutzername**: PHX-POC174-User01, PHX-POC174-User02 … PHX-POC174-User20 etc.
-- **Password**: ntnx4STZ!
+- **Benutzername**: 
+- **Password**: 
 
 Frame VDI Client
 ++++++++++++++++
