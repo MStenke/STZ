@@ -72,19 +72,21 @@ Infrastruktur IPs
      - 10.38.198.28
      - 10.38.198.36
 
-.. list-table::
-   :widths: 40 40 40
-   :header-rows: 1
 
-   * - Services
-     - IP-Adressen STZ-A
-	 - IP-Adressen STZ-B
-   * - **Virtuelle IP Adresse Cluster**
-     - 10.38.174.37
-	 - 10.38.198.37
-   * - **iSCSI Data Services IP**
-     - 10.38.174.38
-	 - 10.38.198.38
+.. list-table::
+  :widths: 20 20 10
+  :header-rows: 1
+
+  * - Services
+    - IP-Adressen STZ-A
+    - IP-Adressen STZ-B
+  * - **Virtuelle IP Adresse Cluster**
+    - 10.38.174.37
+    - 10.38.198.37
+  * - **iSCSI Data Services IP**
+    - 10.38.174.38
+    - 10.38.198.38
+
 
 Zugangsdaten
 ++++++++++++
@@ -173,26 +175,26 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - 0
      - 1743
    * - **Netzwerk IP Adresse**
-     - 10.42.174.0
-     - 10.42.174.128
+     - 10.38.174.0
+     - 10.38.174.128
    * - **Netzmaske**
      - 255.255.255.128 (/25)
      - 255.255.255.128 (/25)
    * - **Default Gateway**
-     - 10.42.174.1
-     - 10.42.174.129
+     - 10.38.174.1
+     - 10.38.174.129
    * - **IP Address Management (IPAM)**
      - Aktiviert
      - Aktiviert
    * - **DHCP Pool**
-     - 10.42.174.50  - 125
-     - 10.42.174.132 - 253
+     - 10.38.174.50  - 125
+     - 10.38.174.132 - 253
    * - **Domain**
      - NTNXLAB.local
      - NTNXLAB.local
    * - **DNS**
-     - 10.42.174.41 (DC VM)
-     - 10.42.174.41 (DC VM)
+     - 10.38.174.41 (DC VM)
+     - 10.38.174.41 (DC VM)
 
 **NTNX-STZ-B**
 
@@ -225,5 +227,5 @@ Die folgenden virtuellen Netzwerke wurden wie folgt vorkonfiguriert:
      - NTNXLAB.local
      - NTNXLAB.local
    * - **DNS**
-     - 10.42.174.41 (DC VM)
-     - 10.42.174.41 (DC VM)
+     - 10.38.174.41 (DC VM)
+     - 10.38.174.41 (DC VM)
