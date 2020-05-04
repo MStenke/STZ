@@ -74,13 +74,13 @@ Infrastruktur IPs
 
 
 .. list-table::
-  :widths: 20 30 30
+  :widths: 20 20 20
   :header-rows: 1
 
   * - Services
     - IP-Adressen STZ-A
     - IP-Adressen STZ-B
-  * - **Cluster IP**
+  * - **Cluster virtual IP**
     - 10.38.174.37
     - 10.38.198.37
   * - **iSCSI Data Services IP**
