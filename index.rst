@@ -39,7 +39,7 @@
 
    4-optional/hycu/hycu
    4-optional/veeam/veeam
-   4-optional/calm_karbon_cicd
+   4-optional/calm_karbon_cicd/karbon_cicd
 
 
 .. toctree::
