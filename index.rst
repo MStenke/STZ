@@ -31,6 +31,16 @@
    3-privatecloud/prismops/prismops_rightsize_lab/prismops_rightsize_lab
    3-privatecloud/files/files
    3-privatecloud/flow_secure_fiesta/flow_secure_fiesta
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Optionale Labs
+   :hidden:
+
+   4-optional/hycu/hycu
+   4-optional/veeam/veeam
+   4-optional/calm_karbon_cicd
+
 
 .. toctree::
    :maxdepth: 2
