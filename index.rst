@@ -31,7 +31,23 @@
    3-privatecloud/prismops/prismops_rightsize_lab/prismops_rightsize_lab
    3-privatecloud/files/files
    3-privatecloud/flow_secure_fiesta/flow_secure_fiesta
-   
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Calm Labs
+   :hidden:
+
+   5-calm/what_is_calm/what_is_calm
+   5-calm/calm_enable/calm_enable
+   5-calm/calm_projects/calm_projects
+   5-calm/calm_linux/calm_linux
+   5-calm/calm_win/calm_win
+   5-calm/calm_day2/calm_day2
+   5-calm/calm_escript/calm_escript
+   5-calm/calm_marketplace/calm_marketplace
+   5-calm/flow_assign_categories_in_calm/flow_assign_categories_in_calm
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Optionale Labs
